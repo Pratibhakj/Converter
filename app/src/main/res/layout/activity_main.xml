@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Converter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#C5295E"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+         />
+    <EditText
+        android:id="@+id/temp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:paddingTop="15dp"
+        android:hint="Enter Temperature"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/ctf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius to Fahrenheit"
+        android:backgroundTint="#E91E63"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/ftc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Fahrenheit to Celsius"
+        android:backgroundTint="#E91E63"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Degree"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
